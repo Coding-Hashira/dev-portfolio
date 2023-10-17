@@ -6,7 +6,7 @@ type Props = {};
 
 const Navbar = ({}: Props) => {
   return (
-    <div className=" flex justify-center sm:justify-around items-center h-[15vh]">
+    <div className="z-50 relative flex justify-center sm:justify-around items-center h-[15vh]">
       <Link href="/">
         <h1 className="text-2xl font-medium">Jashan Mago</h1>
       </Link>
