@@ -1,3 +1,10 @@
+import { Navbar } from "@/components";
+
 export default function Home() {
-  return <h1>Waheguru!</h1>;
+  return (
+    <div>
+      <Navbar />
+      Waheguru
+    </div>
+  );
 }
