@@ -7,7 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div
+    <section
       id="about"
       className="w-full flex-col gap-12 mt-36 flex text-center relative items-center justify-center"
     >
@@ -17,7 +17,7 @@ const About = (props: Props) => {
       </div>
 
       <div className="flex flex-col items-center justify-center gap-4">
-        <h3 className="text-center font-medium text-2xl">About Myself</h3>
+        <h3 className="text-center font-medium text-xl">About Myself</h3>
 
         <p className="w-[50%] text-justify">
           I am Jashan Mago, frontend developer from India with expertise in
@@ -42,7 +42,7 @@ const About = (props: Props) => {
         </p>
       </div>
       <div className="flex flex-col items-center justify-center gap-4">
-        <h3 className="text-center font-medium text-2xl">My Tech Skills</h3>
+        <h3 className="text-center font-medium text-xl">My Tech Skills</h3>
 
         <div className="grid grid-cols-4 justify-center items-center gap-y-6 gap-x-4 mt-4">
           {skills.map((skill) => (
@@ -59,7 +59,7 @@ const About = (props: Props) => {
         </div>
       </div>
       <ScrollToTopBtn />
-    </div>
+    </section>
   );
 };
 

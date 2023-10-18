@@ -3,7 +3,6 @@ type Skill = { id: number; path: string; title: string };
 
 export const navLinks: NavLink[] = [
   { id: 1, url: "#about", title: "About" },
-  { id: 2, url: "#experience", title: "Experience" },
   { id: 4, url: "#projects", title: "Projects" },
   { id: 5, url: "#contact", title: "Contact" },
 ];
@@ -53,3 +52,8 @@ export const skills: Skill[] = [
   { id: 10, path: "three", title: "Three.js" },
   { id: 11, path: "node", title: "Node.js" },
 ];
+
+export const styles = {
+  section:
+    "mt-36 w-full flex-col flex text-center gap-12 relative items-center justify-center",
+};
