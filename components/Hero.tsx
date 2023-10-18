@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
         <h1 className="text-4xl font-semibold">Jashan Mago</h1>
         <h3 className="text-2xl font-medium">Frontend Developer</h3>
         <div className=" mt-6">
-          <button className="w-4/5 transition-all duration-[250ms] border-black border-2 hover:text-black hover:bg-white rounded-full bg-black text-white py-2">
+          <button className="w-4/5 transition-all active:bg-[#e7e7e7] duration-[250ms] border-black border-2 hover:text-black hover:bg-white rounded-full bg-black text-white py-2">
             Contact Me
           </button>
         </div>
