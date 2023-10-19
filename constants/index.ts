@@ -47,6 +47,7 @@ export const skills = [
     title: "Figma",
   },
   { id: 10, path: "three", title: "Three.js" },
+  { id: 12, path: "framer", title: "Framer" },
   { id: 11, path: "node", title: "Node.js" },
 ];
 

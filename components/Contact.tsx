@@ -6,7 +6,7 @@ import { MdMail } from "react-icons/md";
 const Contact = () => {
   return (
     <Section title="Contact Me" subtitle="Get in touch" id="contact">
-      <div className="flex -mt-4 flex-col gap-6 w-1/2 text-justify">
+      <div className="flex mb-12 -mt-4 flex-col gap-6 w-1/2 text-justify">
         <p>
           I&rsquo;m currently available for job or freelance opportunities. If
           you are looking to hire a skilled developer, or just need assistance

@@ -2,6 +2,7 @@
 import { skills } from "@/constants";
 import React from "react";
 import Section from "./Section";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -36,7 +37,14 @@ const About = () => {
 
         <div className="grid grid-cols-4 justify-center items-center gap-y-6 gap-x-4 mt-4">
           {skills.map((skill) => (
-            <div className="flex items-center gap-2 font-medium" key={skill.id}>
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="flex items-center gap-2 font-medium"
+              key={skill.id}
+            >
               <img
                 key={skill.id}
                 src={`/assets/${skill.path}.svg`}
@@ -44,7 +52,7 @@ const About = () => {
                 className="h-10 w-10"
               />
               <span>{skill.title}</span>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

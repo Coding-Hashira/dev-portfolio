@@ -11,7 +11,6 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-      Waheguru
     </div>
   );
 }
