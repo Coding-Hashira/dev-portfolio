@@ -1,21 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import { skills } from "@/constants";
 import React from "react";
-import ScrollToTopBtn from "./ScrollToTopBtn";
+import Section from "./Section";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
-    <section
-      id="about"
-      className="w-full flex-col gap-12 mt-36 flex text-center relative items-center justify-center"
-    >
-      <div className="flex flex-col items-center justify-center gap-2">
-        <span className="text-sm text-gray-700">Know more</span>
-        <h2 className="text-4xl font-semibold">About Me</h2>
-      </div>
-
+    <Section title="About Me" id="about" subtitle="Know more">
       <div className="flex flex-col items-center justify-center gap-4">
         <h3 className="text-center font-medium text-xl">About Myself</h3>
 
@@ -58,8 +48,7 @@ const About = (props: Props) => {
           ))}
         </div>
       </div>
-      <ScrollToTopBtn />
-    </section>
+    </Section>
   );
 };
 

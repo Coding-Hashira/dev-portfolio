@@ -2,9 +2,7 @@ import { navLinks } from "@/constants";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-const Navbar = ({}: Props) => {
+const Navbar = () => {
   return (
     <div className="z-50 relative flex justify-center sm:justify-around items-center h-[15vh]">
       <Link href="/">

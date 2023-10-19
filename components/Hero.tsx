@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className="w-full z-10 gap-20 h-[80vh] flex items-center justify-center">
       <Image

@@ -1,6 +1,6 @@
 "use client";
 
-import { Navbar, Hero, About, Projects } from "@/components";
+import { Navbar, Hero, About, Projects, Contact } from "@/components";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Contact />
       Waheguru
     </div>
   );

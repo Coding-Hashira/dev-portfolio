@@ -1,13 +1,10 @@
-type NavLink = { id: number; url: string; title: string };
-type Skill = { id: number; path: string; title: string };
-
-export const navLinks: NavLink[] = [
+export const navLinks = [
   { id: 1, url: "#about", title: "About" },
   { id: 4, url: "#projects", title: "Projects" },
   { id: 5, url: "#contact", title: "Contact" },
 ];
 
-export const skills: Skill[] = [
+export const skills = [
   {
     id: 1,
     path: "html5-plain",
@@ -53,7 +50,13 @@ export const skills: Skill[] = [
   { id: 11, path: "node", title: "Node.js" },
 ];
 
-export const styles = {
-  section:
-    "mt-36 w-full flex-col flex text-center gap-12 relative items-center justify-center",
-};
+export const projects = [
+  {
+    id: 1,
+    title: "MovieNite",
+    src: "/MovieNite.png",
+    desc: "MovieNite is a movie browsing platform where you can explore trending movies and top movies from various genres, as well as get details of those movies. It's built with ReactJS and TMDb API. Check it out to find your next movie!",
+    githubRepo: "https://github.com/Coding-Hashira/MovieNite",
+    liveSite: "https://movienite.vercel.app",
+  },
+];
