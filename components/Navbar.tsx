@@ -11,9 +11,17 @@ const Navbar = () => {
           initial={{ opacity: 0, x: -300 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="text-2xl font-medium"
+          className="text-2xl hidden sm:block font-medium"
         >
           Jashan Mago
+        </motion.h1>
+        <motion.h1
+          initial={{ opacity: 0, y: -300 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-2xl block sm:hidden font-medium"
+        >
+          Jashan
         </motion.h1>
       </Link>
 

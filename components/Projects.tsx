@@ -6,9 +6,9 @@ import Section from "./Section";
 const Projects = () => {
   return (
     <Section id="projects" title="Projects" subtitle="Browse my">
-      <div className="w-[55%] flex justify-center">
+      <div className="flex justify-center">
         {projects.map((project) => (
-          <div key={project.id} className="w-[45%] ">
+          <div key={project.id} className="w-[325px] ">
             <Project
               title={project.title}
               src={project.src}
