@@ -11,7 +11,7 @@ const Hero = () => {
       className="w-full  z-10 lg:gap-20 gap-12 sm:gap-32 h-[60vh] lg:h-[80vh] flex sm:flex-row flex-col items-center justify-center"
     >
       <Image
-        src="/icon.png"
+        src="/Jashan.png"
         height={350}
         width={350}
         className="rounded-full lg:w-[350px] w-[250px] h-[250px] lg:h-[350px] border-2 border-black"
