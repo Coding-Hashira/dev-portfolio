@@ -12,7 +12,7 @@ type Props = {
 
 const Project = ({ title, src, desc, githubRepo, liveSite }: Props) => {
   return (
-    <div className="group transition-all duration-[250ms] hover:bg-[#ebebeb] hover:scale-105 cursor-pointer p-4 flex flex-col gap-4 rounded-sm border-2 border-black ">
+    <div className="group h-full transition-all duration-[250ms] hover:bg-[#ebebeb] hover:scale-105 cursor-pointer p-4 flex flex-col gap-4 rounded-sm border-2 border-black ">
       <img
         src={src}
         alt="MovieNite"

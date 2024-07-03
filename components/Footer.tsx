@@ -12,7 +12,7 @@ const Footer = () => {
       viewport={{ once: true }}
       className="mt-36 border-t-2 border-gray-700 flex items-center justify-around py-6"
     >
-      <span>© 2023 Jashan Mago</span>
+      <span>© 2024 Jashan Mago</span>
 
       <div className="flex items-center gap-4">
         <a href="https://twitter.com/coding_hashira">
