@@ -60,4 +60,12 @@ export const projects = [
     githubRepo: "https://github.com/Coding-Hashira/MovieNite",
     liveSite: "https://movienite.vercel.app",
   },
+  {
+    id: 2,
+    title: "ChatHub",
+    src: "/ChatHub.png",
+    desc: "This is ChatHub! Your one stop destination for all the chats with your friends, family and everyone else! And the best part? There are no lizards spying on you here ;)",
+    githubRepo: "https://github.com/Coding-Hashira/chathub",
+    liveSite: "https://chathub-xi.vercel.app/",
+  },
 ];

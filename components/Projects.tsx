@@ -6,7 +6,7 @@ import Section from "./Section";
 const Projects = () => {
   return (
     <Section id="projects" title="Projects" subtitle="Browse my">
-      <div className="flex justify-center">
+      <div className="flex gap-8 md:flex-row flex-col justify-center">
         {projects.map((project) => (
           <div key={project.id} className="w-[325px] ">
             <Project
